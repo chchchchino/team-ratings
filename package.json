@@ -1,0 +1,20 @@
+{
+  "name": "team-ratings",
+  "version": "1.0.0",
+  "description": "REST APIs used to rate team members",
+  "repository": "",
+  "author": "Gabe Chino <gabe.chino@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.12.0",
+    "node-xlsx": "^0.12.1",
+    "read-excel-file": "^2.0.6",
+    "serverless-dynamodb-local": "^0.2.30",
+    "serverless-offline": "^3.8.3",
+    "uuid": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
+}
